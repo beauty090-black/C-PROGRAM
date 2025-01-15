@@ -29,7 +29,7 @@ int main() {
                 printf("Error: Division by zero is not allowed.\n");
             }
             break;
-        default:
+        else:
             printf("Error: Invalid operator.\n");
             break;
     }
